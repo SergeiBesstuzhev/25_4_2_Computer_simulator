@@ -1,0 +1,5 @@
+# ninja log v5
+0	74	6615237127946444	build.ninja	c84bfa293391fda0
+0	535	6615236984515632	CMakeFiles/25_4_2_Computer_simulator.dir/src/main.cpp.obj	82cddfb9f75d77af
+11	543	6615236984545674	CMakeFiles/25_4_2_Computer_simulator.dir/src/operations.cpp.obj	e011807579a54858
+6	512	6615236984295625	CMakeFiles/25_4_2_Computer_simulator.dir/src/input.cpp.obj	6f04b245353d1ddf
