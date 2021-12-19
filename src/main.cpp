@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
-#include "../include/input.h"
-#include "C:\Users\serge\CLionProjects\25.4.2_Computer_simulator\src\operations.cpp"
+#include "input.h"
+#include "operation.h"
 
 int main() {
     while (true) {

@@ -1,5 +1,3 @@
+C:/Users/serge/CLionProjects/25.4.2_Computer_simulator/cmake-build-debug/CMakeFiles/25.4.2_Computer_simulator.dir
 C:/Users/serge/CLionProjects/25.4.2_Computer_simulator/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/serge/CLionProjects/25.4.2_Computer_simulator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/serge/CLionProjects/25.4.2_Computer_simulator/cmake-build-debug/src/CMakeFiles/25_4_2_Computer_simulator.dir
-C:/Users/serge/CLionProjects/25.4.2_Computer_simulator/cmake-build-debug/src/CMakeFiles/edit_cache.dir
-C:/Users/serge/CLionProjects/25.4.2_Computer_simulator/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir

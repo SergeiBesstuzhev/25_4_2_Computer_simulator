@@ -1,5 +1,5 @@
-#include "../include/input.h"
-#include "../include/operations.h"
+#include "input.h"
+#include "operation.h"
 
 #include <iostream>
 
