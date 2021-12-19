@@ -40,59 +40,6 @@ include CMakeFiles\rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = C$:\Users\serge\CLionProjects\25.4.2_Computer_simulator\cmake-build-debug\
-# =============================================================================
-# Object build statements for EXECUTABLE target 25_4_2_Computer_simulator
-
-
-#############################################
-# Order-only phony target for 25_4_2_Computer_simulator
-
-build cmake_object_order_depends_target_25_4_2_Computer_simulator: phony || CMakeFiles\25_4_2_Computer_simulator.dir
-
-build CMakeFiles\25_4_2_Computer_simulator.dir\src\main.cpp.obj: CXX_COMPILER__25_4_2_Computer_simulator_Debug C$:\Users\serge\CLionProjects\25.4.2_Computer_simulator\src\main.cpp || cmake_object_order_depends_target_25_4_2_Computer_simulator
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
-  INCLUDES = -IC:\Users\serge\CLionProjects\25.4.2_Computer_simulator\include
-  OBJECT_DIR = CMakeFiles\25_4_2_Computer_simulator.dir
-  OBJECT_FILE_DIR = CMakeFiles\25_4_2_Computer_simulator.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\25_4_2_Computer_simulator.dir\
-  TARGET_PDB = 25_4_2_Computer_simulator.pdb
-
-build CMakeFiles\25_4_2_Computer_simulator.dir\src\input.cpp.obj: CXX_COMPILER__25_4_2_Computer_simulator_Debug C$:\Users\serge\CLionProjects\25.4.2_Computer_simulator\src\input.cpp || cmake_object_order_depends_target_25_4_2_Computer_simulator
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
-  INCLUDES = -IC:\Users\serge\CLionProjects\25.4.2_Computer_simulator\include
-  OBJECT_DIR = CMakeFiles\25_4_2_Computer_simulator.dir
-  OBJECT_FILE_DIR = CMakeFiles\25_4_2_Computer_simulator.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\25_4_2_Computer_simulator.dir\
-  TARGET_PDB = 25_4_2_Computer_simulator.pdb
-
-build CMakeFiles\25_4_2_Computer_simulator.dir\src\operations.cpp.obj: CXX_COMPILER__25_4_2_Computer_simulator_Debug C$:\Users\serge\CLionProjects\25.4.2_Computer_simulator\src\operations.cpp || cmake_object_order_depends_target_25_4_2_Computer_simulator
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
-  INCLUDES = -IC:\Users\serge\CLionProjects\25.4.2_Computer_simulator\include
-  OBJECT_DIR = CMakeFiles\25_4_2_Computer_simulator.dir
-  OBJECT_FILE_DIR = CMakeFiles\25_4_2_Computer_simulator.dir\src
-  TARGET_COMPILE_PDB = CMakeFiles\25_4_2_Computer_simulator.dir\
-  TARGET_PDB = 25_4_2_Computer_simulator.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 25_4_2_Computer_simulator
-
-
-#############################################
-# Link the executable 25_4_2_Computer_simulator.exe
-
-build 25_4_2_Computer_simulator.exe: CXX_EXECUTABLE_LINKER__25_4_2_Computer_simulator_Debug CMakeFiles\25_4_2_Computer_simulator.dir\src\main.cpp.obj CMakeFiles\25_4_2_Computer_simulator.dir\src\input.cpp.obj CMakeFiles\25_4_2_Computer_simulator.dir\src\operations.cpp.obj
-  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  LINK_FLAGS = /machine:X86 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = CMakeFiles\25_4_2_Computer_simulator.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\25_4_2_Computer_simulator.dir\
-  TARGET_FILE = 25_4_2_Computer_simulator.exe
-  TARGET_IMPLIB = 25_4_2_Computer_simulator.lib
-  TARGET_PDB = 25_4_2_Computer_simulator.pdb
-
 
 #############################################
 # Utility command for edit_cache
@@ -117,9 +64,92 @@ build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/serge/CLionProjects/25.4.2_Computer_simulator/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 25_4_2_Computer_simulator
+
+
+#############################################
+# Order-only phony target for 25_4_2_Computer_simulator
+
+build cmake_object_order_depends_target_25_4_2_Computer_simulator: phony || src\CMakeFiles\25_4_2_Computer_simulator.dir
+
+build src\CMakeFiles\25_4_2_Computer_simulator.dir\main.cpp.obj: CXX_COMPILER__25_4_2_Computer_simulator_Debug C$:\Users\serge\CLionProjects\25.4.2_Computer_simulator\src\main.cpp || cmake_object_order_depends_target_25_4_2_Computer_simulator
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
+  INCLUDES = -IC:\Users\serge\CLionProjects\25.4.2_Computer_simulator\include
+  OBJECT_DIR = src\CMakeFiles\25_4_2_Computer_simulator.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\25_4_2_Computer_simulator.dir
+  TARGET_COMPILE_PDB = src\CMakeFiles\25_4_2_Computer_simulator.dir\
+  TARGET_PDB = src\25_4_2_Computer_simulator.pdb
+
+build src\CMakeFiles\25_4_2_Computer_simulator.dir\input.cpp.obj: CXX_COMPILER__25_4_2_Computer_simulator_Debug C$:\Users\serge\CLionProjects\25.4.2_Computer_simulator\src\input.cpp || cmake_object_order_depends_target_25_4_2_Computer_simulator
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
+  INCLUDES = -IC:\Users\serge\CLionProjects\25.4.2_Computer_simulator\include
+  OBJECT_DIR = src\CMakeFiles\25_4_2_Computer_simulator.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\25_4_2_Computer_simulator.dir
+  TARGET_COMPILE_PDB = src\CMakeFiles\25_4_2_Computer_simulator.dir\
+  TARGET_PDB = src\25_4_2_Computer_simulator.pdb
+
+build src\CMakeFiles\25_4_2_Computer_simulator.dir\operations.cpp.obj: CXX_COMPILER__25_4_2_Computer_simulator_Debug C$:\Users\serge\CLionProjects\25.4.2_Computer_simulator\src\operations.cpp || cmake_object_order_depends_target_25_4_2_Computer_simulator
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
+  INCLUDES = -IC:\Users\serge\CLionProjects\25.4.2_Computer_simulator\include
+  OBJECT_DIR = src\CMakeFiles\25_4_2_Computer_simulator.dir
+  OBJECT_FILE_DIR = src\CMakeFiles\25_4_2_Computer_simulator.dir
+  TARGET_COMPILE_PDB = src\CMakeFiles\25_4_2_Computer_simulator.dir\
+  TARGET_PDB = src\25_4_2_Computer_simulator.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 25_4_2_Computer_simulator
+
+
+#############################################
+# Link the executable src\25_4_2_Computer_simulator.exe
+
+build src\25_4_2_Computer_simulator.exe: CXX_EXECUTABLE_LINKER__25_4_2_Computer_simulator_Debug src\CMakeFiles\25_4_2_Computer_simulator.dir\main.cpp.obj src\CMakeFiles\25_4_2_Computer_simulator.dir\input.cpp.obj src\CMakeFiles\25_4_2_Computer_simulator.dir\operations.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
+  LINK_FLAGS = /machine:X86 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = src\CMakeFiles\25_4_2_Computer_simulator.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = src\CMakeFiles\25_4_2_Computer_simulator.dir\
+  TARGET_FILE = src\25_4_2_Computer_simulator.exe
+  TARGET_IMPLIB = src\25_4_2_Computer_simulator.lib
+  TARGET_PDB = src\25_4_2_Computer_simulator.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build src\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\serge\CLionProjects\25.4.2_Computer_simulator\cmake-build-debug\src && "C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build src\edit_cache: phony src\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\serge\CLionProjects\25.4.2_Computer_simulator\cmake-build-debug\src && "C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\serge\CLionProjects\25.4.2_Computer_simulator -BC:\Users\serge\CLionProjects\25.4.2_Computer_simulator\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src\rebuild_cache: phony src\CMakeFiles\rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
-build 25_4_2_Computer_simulator: phony 25_4_2_Computer_simulator.exe
+build 25_4_2_Computer_simulator: phony src\25_4_2_Computer_simulator.exe
+
+build 25_4_2_Computer_simulator.exe: phony src\25_4_2_Computer_simulator.exe
 
 # =============================================================================
 # Folder targets.
@@ -129,7 +159,14 @@ build 25_4_2_Computer_simulator: phony 25_4_2_Computer_simulator.exe
 #############################################
 # Folder: C:/Users/serge/CLionProjects/25.4.2_Computer_simulator/cmake-build-debug
 
-build all: phony 25_4_2_Computer_simulator.exe
+build all: phony src\all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/serge/CLionProjects/25.4.2_Computer_simulator/cmake-build-debug/src
+
+build src\all: phony src\25_4_2_Computer_simulator.exe
 
 # =============================================================================
 # Built-in targets
@@ -138,14 +175,14 @@ build all: phony 25_4_2_Computer_simulator.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ..\CMakeLists.txt C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.21.1\CMakeCCompiler.cmake CMakeFiles\3.21.1\CMakeCXXCompiler.cmake CMakeFiles\3.21.1\CMakeRCCompiler.cmake CMakeFiles\3.21.1\CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ..\CMakeLists.txt ..\src\CMakeLists.txt C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.21.1\CMakeCCompiler.cmake CMakeFiles\3.21.1\CMakeCXXCompiler.cmake CMakeFiles\3.21.1\CMakeRCCompiler.cmake CMakeFiles\3.21.1\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ..\CMakeLists.txt C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.21.1\CMakeCCompiler.cmake CMakeFiles\3.21.1\CMakeCXXCompiler.cmake CMakeFiles\3.21.1\CMakeRCCompiler.cmake CMakeFiles\3.21.1\CMakeSystem.cmake: phony
+build ..\CMakeLists.txt ..\src\CMakeLists.txt C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeRCInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\Windows.cmake C$:\Program$ Files\JetBrains\CLion$ 2021.2\bin\cmake\win\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.21.1\CMakeCCompiler.cmake CMakeFiles\3.21.1\CMakeCXXCompiler.cmake CMakeFiles\3.21.1\CMakeRCCompiler.cmake CMakeFiles\3.21.1\CMakeSystem.cmake: phony
 
 
 #############################################
