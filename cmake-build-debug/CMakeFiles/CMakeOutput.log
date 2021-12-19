@@ -6,11 +6,11 @@ Id flags:
 
 The output was:
 0
-Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30136 для x86
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30138 для x86
 (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
 
 CMakeCCompilerId.c
-Microsoft (R) Incremental Linker Version 14.29.30136.0
+Microsoft (R) Incremental Linker Version 14.29.30138.0
 Copyright (C) Microsoft Corporation.  All rights reserved.
 
 /out:CMakeCCompilerId.exe 
@@ -30,11 +30,11 @@ Id flags:
 
 The output was:
 0
-Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30136 для x86
+Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.29.30138 для x86
 (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
 
 CMakeCXXCompilerId.cpp
-Microsoft (R) Incremental Linker Version 14.29.30136.0
+Microsoft (R) Incremental Linker Version 14.29.30138.0
 Copyright (C) Microsoft Corporation.  All rights reserved.
 
 /out:CMakeCXXCompilerId.exe 
@@ -50,18 +50,24 @@ The CXX compiler identification is MSVC, found in "C:/Users/serge/CLionProjects/
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: C:/Users/serge/CLionProjects/25.4.2_Computer_simulator/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_fc570 && [1/2] Building C object CMakeFiles\cmTC_fc570.dir\CMakeCCompilerABI.c.obj
-Примечание: включение файла:  C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeCompilerABI.h
-[2/2] Linking C executable cmTC_fc570.exe
+Run Build Command(s):nmake -f Makefile /nologo cmTC_7e03b\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_7e03b.dir\build.make /nologo -L                  CMakeFiles\cmTC_7e03b.dir\build
+Building C object CMakeFiles/cmTC_7e03b.dir/CMakeCCompilerABI.c.obj
+	"C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_7e03b.dir\CMakeCCompilerABI.c.obj.d --working-dir=C:\Users\serge\CLionProjects\25.4.2_Computer_simulator\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="╧Ёшьхўрэшх: тъы■ўхэшх Їрщыр:  " -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @C:\Users\serge\AppData\Local\Temp\nmC967.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_7e03b.exe
+	"C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_7e03b.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_7e03b.dir\objects1.rsp @C:\Users\serge\AppData\Local\Temp\nmCAC0.tmp
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: C:/Users/serge/CLionProjects/25.4.2_Computer_simulator/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.2/bin/ninja/win/ninja.exe cmTC_acec6 && [1/2] Building CXX object CMakeFiles\cmTC_acec6.dir\CMakeCXXCompilerABI.cpp.obj
-Примечание: включение файла:  C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\share\cmake-3.21\Modules\CMakeCompilerABI.h
-[2/2] Linking CXX executable cmTC_acec6.exe
+Run Build Command(s):nmake -f Makefile /nologo cmTC_a7dab\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x86\nmake.exe"  -f CMakeFiles\cmTC_a7dab.dir\build.make /nologo -L                  CMakeFiles\cmTC_a7dab.dir\build
+Building CXX object CMakeFiles/cmTC_a7dab.dir/CMakeCXXCompilerABI.cpp.obj
+	"C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\cmTC_a7dab.dir\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\Users\serge\CLionProjects\25.4.2_Computer_simulator\cmake-build-debug\CMakeFiles\CMakeTmp --filter-prefix="╧Ёшьхўрэшх: тъы■ўхэшх Їрщыр:  " -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @C:\Users\serge\AppData\Local\Temp\nmCC46.tmp
+CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a7dab.exe
+	"C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_a7dab.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_a7dab.dir\objects1.rsp @C:\Users\serge\AppData\Local\Temp\nmCCA5.tmp
 
 
 
